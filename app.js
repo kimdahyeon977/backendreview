@@ -5,6 +5,8 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const authRouter = require("./router/authRouter");
 const apiRouter = require("./router/apiRouter");
+const cors = require("cors");
+app.use(cors());
 
 dotenv.config();
 
@@ -31,4 +33,4 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-app.listen(3000, () => console.log("listen 3000"));
+app.listen(3001, () => console.log("listen 3001"));
