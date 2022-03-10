@@ -1,5 +1,7 @@
 # JSON-SERVER API 명세서
 
+- 보강 첫 시간 몸 풀기로 진행한 JSON-SERVER의 API 명세서입니다.
+
 # GET /data
 
 data.json 읽고 돌려줌
